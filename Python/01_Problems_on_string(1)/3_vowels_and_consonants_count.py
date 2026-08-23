@@ -1,0 +1,14 @@
+str = input("Enter a string- ")
+str = str.lower()
+
+vowels = 0
+consonants = 0
+
+for i in str:
+    if i in "aeiou":
+        vowels += 1
+    elif i.isalpha():
+        consonants += 1
+
+print("Vowels - ", vowels)
+print("Consonants - ", consonants)
