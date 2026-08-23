@@ -1,0 +1,9 @@
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+c = A.intersection(B)
+d = A.union(B)
+
+jaccardSimilarity = len(c)/len(d)
+
+print("Jaccard similarity= ",len(c), "/", len(d), " = ",jaccardSimilarity)
