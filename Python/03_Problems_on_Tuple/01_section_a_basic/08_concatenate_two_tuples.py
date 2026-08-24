@@ -1,0 +1,4 @@
+tup1 = (1, 2, 3)
+tup2 = (4, 5)
+
+print(tup1 + tup2)
